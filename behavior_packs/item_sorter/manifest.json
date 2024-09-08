@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Item Sorter v1.0.0",
+    "description": "Sort inventory and chests.",
+    "uuid": "86d4add3-c7a2-477e-869f-35f243ef0bcd",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 30]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "150ae28c-1c3c-4e46-b750-f8019d0db0bd",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.14.0-beta"
+    }
+  ]
+}
